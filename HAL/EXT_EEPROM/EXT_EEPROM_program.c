@@ -29,7 +29,7 @@ void EEPROM_WriteData(u8 *array){
 
 }
 
-u8  EEPROM_ReadData(void){
+u8   EEPROM_ReadData(void){
 
 
 
