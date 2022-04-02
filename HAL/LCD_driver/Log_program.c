@@ -91,7 +91,7 @@ void Log_voidPrintNumber(u16 Copy_u16Val)
 	}
 
 	else
-	{
-		 LCD_voidsendDATA(Copy_u16Val+48);
+	{    LCD_voidsendDATA(Copy_u16Val+48);
+
 	}
 }

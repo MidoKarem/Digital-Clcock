@@ -20,7 +20,6 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-FREE_RTOS \
 HAL/EXT_EEPROM \
 HAL/Keypad_driver \
 HAL/LCD_driver \
@@ -32,6 +31,5 @@ MCAL/SPI \
 MCAL/TIMER \
 MCAL/UART \
 MCAL/WatchDog \
-app \
 . \
 

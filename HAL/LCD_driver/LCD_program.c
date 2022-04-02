@@ -87,14 +87,14 @@
 void LCD_voidGoToXY(u8 copy_u8Xpos,u8 copy_u8Ypos)
 {
 	u8 local_u8position;
-	if(copy_u8Ypos==0)
+	if(copy_u8Xpos==0)
 	{
-		local_u8position=copy_u8Xpos;
+		local_u8position=copy_u8Ypos;
 
 	}
-	else if(copy_u8Ypos==1)
+	else if(copy_u8Xpos==1)
 	{
-		local_u8position=copy_u8Xpos+0x40;
+		local_u8position=copy_u8Ypos+0x40;
 	}
 	LCD_voidsendcommand(local_u8position+128);
 }
